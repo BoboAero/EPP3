@@ -1,0 +1,79 @@
+body {
+    display: grid;
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-columns: 20vw 60vw 20vw;
+}
+
+#maindiv {
+    background: #553772;
+    grid-area: 2/2;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#div1 {
+    background: #8f3b76;
+    border-radius: 15px 0 0 0;
+}
+
+#div2 {
+    background: #8f3b76;
+    border: #c7417b 5px solid;
+    border-radius: 0 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    wrap-option: wrap;
+    flex-flow: column;
+}
+
+#div3 {
+    background: #8f3b76;
+    border: #c7417b 5px solid;
+    border-radius: 0 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    wrap-option: wrap;
+    flex-flow: column;
+}
+
+#div4{
+    background: #8f3b76;
+    border: #c7417b 5px solid;
+    border-radius: 0 0 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    wrap-option: wrap;
+    flex-flow: column;
+}
+table {
+    border: #c7417b 5px solid;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 0;
+    overflow: scroll;
+}
+
+td {
+    text-align: center;
+    min-height: 25px;
+    max-height: 75px;
+}
+th{
+    min-height: 50px;
+    max-height: 100px;
+}
+gdiv{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    overflow: scroll;
+}
+gdiv::-webkit-scrollbar{
+    display: none;
+}
+
+
